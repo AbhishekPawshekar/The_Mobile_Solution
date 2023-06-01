@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".productmanupulationclick"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/request_to_add_product"
+                android:layout_width="wrap_content"
+                android:textColor="@color/purple"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/request_to_update_product"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="130dp"
+                android:fontFamily="serif"
+                android:text="Add Product" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/request_to_update_product"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="120dp"
+                android:text="Update Product"
+                android:textColor="@color/purple"
+                android:fontFamily="serif"
+                android:layout_centerHorizontal="true"
+                />
+
+            <TextView
+                android:id="@+id/request_to_delete_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/request_to_update_product"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/purple"
+                android:fontFamily="serif"
+                android:text="Delete Product" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/productmanupulationframelayout"/>
+        </RelativeLayout>
+
+
+</FrameLayout>

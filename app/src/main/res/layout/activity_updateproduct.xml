@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".updateproduct"
+  >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <include layout="@layout/toolbar_with_on_login_signup"></include>
+    <TextView
+        android:id="@+id/request_to_add_product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/request_to_update_product"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="130dp"
+        android:fontFamily="serif"
+        android:textColor="@color/purple"
+
+        android:text="Add Product" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/request_to_update_product"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="120dp"
+        android:textColor="@color/purple"
+        android:text="Update Product"
+        android:background="#E8C2FB"
+        android:fontFamily="serif"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/request_to_delete_product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple"
+
+        android:layout_alignLeft="@+id/request_to_update_product"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="serif"
+        android:text="Delete Product" />
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

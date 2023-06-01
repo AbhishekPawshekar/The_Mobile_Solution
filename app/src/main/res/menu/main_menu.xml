@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp1"
+        >
+        <item android:title="GENERAL"
+            android:enabled="false"
+            android:checkable="false"/>
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/homeicon"/>
+        <item
+            android:id="@+id/account"
+            android:title="Account"
+            android:icon="@drawable/accounticon"/>
+        <item
+            android:id="@+id/orders"
+            android:title="Orders"
+            android:icon="@drawable/ordericon"/>
+        <item
+            android:id="@+id/customer_service"
+            android:title="Customer Service (Repairing)"
+            android:icon="@drawable/serviceicon"/>
+    </group>
+
+
+<group android:checkableBehavior="single"
+    android:id="@+id/grp2">
+    <item
+        android:title="EXPLORE"
+        android:checkable="false"
+        android:enabled="false">
+    </item>
+
+    <item
+        android:id="@+id/mobile_screen_display"
+        android:title="Mobile Screen Display"
+        android:icon="@drawable/mobilescreenicon"
+        />
+    <item
+        android:id="@+id/mobile_batter"
+        android:title="Mobile Battery"
+        android:icon="@drawable/mobilebatteryicon"
+        />
+    <item
+        android:id="@+id/charger"
+        android:title="Charger"
+        android:icon="@drawable/charger"/>
+    </group>
+
+    <item
+        android:id="@+id/help"
+        android:title="Help"
+        android:icon="@drawable/helpicon"/>
+    <group android:id="@+id/grp3"
+        android:checkableBehavior="single">
+        <item
+            android:title="Delete Account"
+            android:id="@+id/deleteaccount"
+            android:icon="@drawable/deleteicon"/>
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        android:icon="@drawable/logouticon"/></group>
+</menu>

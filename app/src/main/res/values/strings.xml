@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">the_mobile_solution</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_extra_product_details_orders">extra_product_details_orders</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_admin_add_category">admin_add_category</string>
+    <string name="title_activity_view_more_categorys">view_more_categorys</string>
+    <string name="title_activity_after_selecting_seemore_category">
+        after_selecting_seemore_category
+    </string>
+    <string name="title_activity_addproduct_select_category">addproduct_select_category</string>
+    <string name="title_activity_updateproduct">updateproduct</string>
+    <string name="title_activity_deleteproduct">deleteproduct</string>
+    <string name="title_activity_adminhomeclick">adminhomeclick</string>
+    <string name="title_activity_specialoffersdetails">specialoffersdetails</string>
+    <string name="title_activity_delete_productname">delete_productname</string>
+    <string name="title_activity_deleteproduct_select_category">deleteproduct_select_category
+    </string>
+    <string name="title_activity_deleteproduct_category_name">deleteproduct_category_name</string>
+    <string name="title_activity_categorydetails">categorydetails</string>
+    <string name="title_activity_startsearching">startsearching</string>
+    <string name="title_activity_request_to_reparing">request_to_reparing</string>
+    <string name="title_activity_display_no_of_reparing">display_no_of_reparing</string>
+    <string name="title_activity_after_buying_product_address_info">
+        after_buying_product_address_info
+    </string>
+
+</resources>

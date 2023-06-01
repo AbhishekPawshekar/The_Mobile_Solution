@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminaddcategory"
+  >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/drawerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:openDrawer="start"
+        tools:context=".admin_add_category">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/addcategoryimage"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="#EAE4E4" />
+            <Button
+                android:id="@+id/selectcategory"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Select Image"
+                android:layout_alignTop="@+id/addcategoryimage"
+                android:layout_marginTop="150dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="9dp"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/category_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:hint="Category Name"
+                android:ems="10"
+                android:fontFamily="serif"
+                android:layout_alignTop="@+id/selectcategory"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:background="#D795F8"
+                    android:textColor="@color/purple"
+                    android:textSize="12dp"
+                    android:fontFamily="serif">
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/submitcategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit Image"
+                android:layout_alignTop="@+id/category_name"
+                android:layout_marginTop="100dp"
+                android:textSize="9dp"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

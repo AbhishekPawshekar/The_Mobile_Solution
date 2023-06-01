@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="@color/purple"
+    android:id="@+id/toolbar1"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignRight="@+id/loginbar"
+            android:layout_marginRight="50dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+        android:id="@+id/loginbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginRight="80dp"
+        android:layout_alignRight="@+id/signupbar"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:id="@+id/signupbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"/>z
+
+    </RelativeLayout>
+</androidx.appcompat.widget.Toolbar>

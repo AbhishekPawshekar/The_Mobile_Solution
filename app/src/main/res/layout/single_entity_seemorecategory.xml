@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="10dp"
+
+    android:id="@+id/single_entity_seemorecategoryui">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+    <ImageView
+        android:id="@+id/seemore_category_image"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/seemore_category_name"
+        android:layout_width="match_parent"
+        android:textColor="@color/purple"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/seemore_category_image"
+        android:layout_marginTop="110dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:fontFamily="serif"
+        android:layout_marginBottom="10dp"
+        android:textSize="12dp"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

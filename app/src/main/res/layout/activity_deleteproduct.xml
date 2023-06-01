@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".deleteproduct"
+>
+<include layout="@layout/toolbar_with_on_login_signup"/>
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="65dp"
+        >
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        >
+
+        <TextView
+            android:id="@+id/display_productimage"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:textStyle="bold"
+            android:textColor="@color/purple"
+            android:fontFamily="serif"
+            android:text="Image"
+            android:textSize="10dp"
+            android:gravity="center_horizontal"
+            />
+        <TextView
+            android:id="@+id/display_productname"
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textColor="@color/purple"
+            android:layout_marginLeft="55dp"
+            android:text="Product Name"
+            android:layout_alignLeft="@+id/display_productimage"
+            android:textSize="10dp"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/display_productdiscount"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="235dp"
+            android:layout_alignLeft="@+id/display_productname"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:text="Discount"
+            android:textColor="@color/purple"
+            android:textSize="10dp"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/displayproductprice"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="80dp"
+            android:layout_alignLeft="@+id/display_productdiscount"
+            android:textStyle="bold"
+            android:textColor="@color/purple"
+            android:text="Price"
+            android:fontFamily="serif"
+            android:textSize="10dp"
+            android:gravity="center_horizontal"
+            />
+        <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/deleteproducterrecyclerview"
+        android:layout_marginTop="30dp"
+
+        />
+    </RelativeLayout>
+    </HorizontalScrollView>
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

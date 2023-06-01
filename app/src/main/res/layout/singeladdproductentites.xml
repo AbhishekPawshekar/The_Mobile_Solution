@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="150dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="10dp"
+    android:id="@+id/singleproductdisplayuserviewui1">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <ImageView
+            android:id="@+id/alldisplayimage"
+            android:layout_width="110dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:id="@+id/allproductname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/purple"
+            android:layout_alignLeft="@+id/alldisplayimage"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textSize="12dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Discount:"
+            android:textColor="@color/purple"
+            android:layout_alignLeft="@+id/alldisplayimage"
+            android:layout_marginLeft="140dp"
+            android:layout_alignBottom="@+id/allproductdiscount"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="serif"
+            android:textSize="14dp"/>
+        <TextView
+            android:id="@+id/allproductdiscount"
+            android:layout_width="match_parent"
+            android:textColor="@color/purple"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/alldisplayimage"
+            android:layout_marginLeft="140dp"
+            android:layout_alignBottom="@+id/allproductprice"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="serif"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/allproductprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/alldisplayimage"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="140dp"
+            android:layout_marginBottom="25dp"
+            android:fontFamily="serif"
+            android:textColor="#F83E3E"
+            android:textSize="16dp" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".request_to_reparing"
+   >
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/purple" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="123dp"
+        android:layout_height="92dp"
+        android:layout_below="@+id/view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/logo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignRight="@+id/view2"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reparing Product:"
+                android:fontFamily="serif"
+                android:textSize="14dp"
+                android:textColor="@color/purple"
+                android:textStyle="bold"
+                android:id="@+id/personaldetailsregistration"/>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/emailofrequest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:ems="10"
+                android:hint="Enter Email-Id"
+                android:layout_alignTop="@+id/personaldetailsregistration"
+                android:textSize="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#D795F8"
+                    android:ems="10"
+                    android:textColor="@color/purple"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="false"
+                    android:textSize="10dp"
+                    android:textStyle="normal|italic"></com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/requestfullname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:ems="10"
+                android:hint="Enter Your Full Name"
+                android:layout_alignTop="@+id/emailofrequest"
+                android:textSize="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#D795F8"
+                    android:ems="10"
+                    android:textColor="@color/purple"
+                    android:inputType="textPersonName"
+                    android:singleLine="false"
+                    android:textSize="10dp"
+                    android:textStyle="normal|italic"></com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/requestphoneno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:ems="10"
+                android:hint="Enter Phone No"
+                android:layout_alignTop="@+id/requestfullname"
+                android:textSize="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:textColor="@color/purple"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#D795F8"
+                    android:ems="10"
+                    android:inputType="phone"
+                    android:singleLine="false"
+                    android:textSize="10dp"
+                    android:textStyle="normal|italic"></com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/nameofproduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:ems="10"
+                android:layout_alignTop="@+id/requestphoneno"
+                android:hint="Name Of Product"
+                android:textSize="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/purple"
+                android:inputType="textPersonName"
+                android:textSize="10dp"
+                android:background="#D795F8"
+                android:textStyle="normal|italic"
+
+                ></com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/nameofcompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:ems="10"
+                android:layout_alignTop="@+id/nameofproduct"
+                android:hint="Name Of Company"
+                android:textSize="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/purple"
+                    android:inputType="textPersonName"
+                    android:textSize="10dp"
+                    android:background="#D795F8"
+                    android:textStyle="normal|italic"
+
+                    ></com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/problem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:ems="10"
+                android:layout_alignTop="@+id/nameofcompany"
+                android:hint="Problem Related To Product:"
+                android:textSize="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:textColor="@color/purple"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:background="#D795F8"
+                    android:textStyle="normal|italic"
+                    android:inputType="textPostalAddress"
+                    android:textSize="10dp"></com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+            <Button
+                android:id="@+id/submitrequest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:layout_alignTop="@+id/problem"
+                android:layout_marginTop="100dp"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

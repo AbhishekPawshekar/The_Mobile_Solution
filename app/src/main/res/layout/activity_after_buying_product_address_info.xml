@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".after_buying_product_address_info">
+    <include layout="@layout/toolbar_with_on_login_signup"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="60dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Option"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/purple"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textSize="17dp"/>
+
+    <RadioGroup
+        android:id="@+id/deliverymethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/purple"
+            android:fontFamily="serif"
+            android:checked="true"
+            android:text="Home Delivery"
+            android:id="@+id/home_delivery"/>
+        <RadioButton
+            android:id="@+id/collect_form_shop"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Collect form Shop"
+            android:textColor="@color/purple"
+            android:fontFamily="serif"
+            android:layout_marginLeft="30dp"/>
+    </RadioGroup>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="170dp"
+                android:id="@+id/afterbuyingproductaddressframelayout"
+                />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

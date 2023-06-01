@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.the_mobile_solution">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.The_mobile_solution">
+        <activity android:name=".after_buying_product_address_info"></activity>
+        <activity android:name=".cart_details" />
+        <activity
+            android:name=".startsearching"
+            android:label="@string/title_activity_startsearching"
+            android:theme="@style/Theme.The_mobile_solution.NoActionBar" />
+        <activity
+            android:name=".display_no_of_reparing"
+            android:label="@string/title_activity_display_no_of_reparing"
+            android:theme="@style/Theme.The_mobile_solution.NoActionBar" />
+        <activity
+            android:name=".request_to_reparing"
+            android:label="@string/title_activity_request_to_reparing"
+            android:theme="@style/Theme.The_mobile_solution.NoActionBar" />
+        <activity
+            android:name=".categorydetails"
+            android:label="@string/title_activity_categorydetails"
+            android:theme="@style/Theme.The_mobile_solution.NoActionBar" />
+        <activity
+            android:name=".deleteproduct_category_name"
+            android:label="@string/title_activity_deleteproduct_category_name"
+            android:theme="@style/Theme.The_mobile_solution.NoActionBar" />
+        <activity
+            android:name=".deleteproduct_select_category"
+            android:label="@string/title_activity_deleteproduct_select_category"
+            android:theme="@style/Theme.The_mobile_solution.NoActionBar" />
+        <activity
+            android:name=".deleteproduct"
+            android:label="@string/title_activity_deleteproduct"
+            android:theme="@style/Theme.The_mobile_solution.NoActionBar" />
+        <activity
+            android:name=".updateproduct"
+            android:label="@string/title_activity_updateproduct"
+            android:theme="@style/Theme.The_mobile_solution.NoActionBar" />
+        <activity
+            android:name=".addproduct_select_category"
+            android:label="@string/title_activity_addproduct_select_category"
+            android:theme="@style/Theme.The_mobile_solution.NoActionBar" />
+        <activity
+            android:name=".select_addproduct_category_name"
+            android:label="select_addproduct_category_name"
+            android:theme="@style/Theme.The_mobile_solution.NoActionBar" />
+        <activity
+            android:name=".after_selecting_seemore_category"
+            android:label="@string/title_activity_after_selecting_seemore_category"
+            android:theme="@style/Theme.The_mobile_solution.NoActionBar" />
+        <activity
+            android:name=".view_more_categorys"
+            android:label="@string/title_activity_view_more_categorys"
+            android:theme="@style/Theme.The_mobile_solution.NoActionBar" />
+        <activity
+            android:name=".extra_product_details_orders"
+            android:label="@string/title_activity_extra_product_details_orders"
+            android:theme="@style/Theme.The_mobile_solution.NoActionBar" />
+        <activity android:name=".extra_product_details" />
+        <activity android:name=".admin_view" />
+        <activity android:name=".registration_page" />
+        <activity android:name=".login_page" />
+        <activity android:name=".main_page" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".deleteproduct_select_category"
+  >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/toolbar_with_on_login_signup"></include>
+
+        <TextView
+            android:id="@+id/request_to_add_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/request_to_update_product"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="130dp"
+            android:textColor="@color/purple"
+
+            android:fontFamily="serif"
+            android:text="Add Product" />
+
+        <TextView
+            android:id="@+id/request_to_update_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="70dp"
+
+            android:textColor="@color/purple"
+            android:fontFamily="serif"
+            android:text="Update Product" />
+
+        <TextView
+            android:id="@+id/request_to_delete_product"
+            android:layout_width="wrap_content"
+            android:background="#E8C2FB"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/request_to_update_product"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="70dp"
+            android:textColor="@color/purple"
+            android:fontFamily="serif"
+            android:text="Delete Product" />
+
+        <!-- TODO: Update blank fragment layout -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="100dp"
+            android:id="@+id/display_category1">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_alignTop="@+id/view3"
+                android:layout_marginTop="10dp"
+                >
+
+
+                    <ImageView
+                        android:id="@+id/mobile_display"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/mobiledisplay_whitebg" />
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="55dp"
+                        android:fontFamily="serif"
+                        android:textColor="@color/purple"
+                        android:gravity="center_horizontal"
+                        android:text="Display"
+                        android:textSize="8dp"
+                        android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_alignTop="@+id/view3"
+                android:layout_marginLeft="160dp"
+                android:layout_marginTop="10dp"
+                >
+                <ImageView
+                    android:id="@+id/mobiledata_cabel"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/mobile_data_cable_whitebg" />
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55dp"
+                    android:fontFamily="serif"
+                    android:textColor="@color/purple"
+                    android:gravity="center_horizontal"
+                    android:text="Cabels"
+                    android:textSize="8dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_alignTop="@+id/view3"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/mobile_batterselect"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/mobile_batter_whitebg" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55dp"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/purple"
+                    android:text="Battery"
+                    android:textSize="8dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_alignTop="@+id/view3"
+                android:layout_marginLeft="310dp"
+                android:layout_marginTop="10dp"
+                > <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black">
+
+                <ImageView
+                    android:id="@+id/mobile_cover"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/mobilecover_whitebg" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55dp"
+                    android:fontFamily="serif"
+                    android:textColor="@color/white"
+                    android:gravity="center_horizontal"
+                    android:text="Covers"
+                    android:textSize="8dp"
+                    android:textStyle="bold" /></RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_alignTop="@+id/view3"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="10dp"
+                >
+
+                <ImageView
+                    android:id="@+id/mobile_charger"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/mobilecharger_whitebg" />
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55dp"
+                    android:textColor="@color/purple"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:text="Charger"
+                    android:textSize="8dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_alignTop="@+id/view3"
+                android:layout_marginTop="100dp"
+                >
+
+                    <ImageView
+                        android:id="@+id/mobile_touchpad"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/mobile_touchpad_whitebg" />
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="55dp"
+                        android:textColor="@color/purple"
+                        android:fontFamily="serif"
+                        android:gravity="center_horizontal"
+                        android:text="TouchPad"
+                        android:textSize="8dp"
+                        android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_alignTop="@+id/view3"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="100dp"
+                >
+
+
+                    <ImageView
+                        android:id="@+id/earphone"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/mobile_earphone_whitebg" />
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="55dp"
+                        android:textColor="@color/purple"
+                        android:fontFamily="serif"
+                        android:gravity="center_horizontal"
+                        android:text="Earphone"
+                        android:textSize="8dp"
+                        android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_alignTop="@+id/view3"
+                android:layout_marginLeft="160dp"
+                android:layout_marginTop="100dp"
+                >
+
+                    <ImageView
+                        android:id="@+id/headphone"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/mobileheadphone_whitebg" />
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="55dp"
+                        android:textColor="@color/purple"
+                        android:fontFamily="serif"
+                        android:gravity="center_horizontal"
+                        android:text="Headphone"
+                        android:textSize="8dp"
+                        android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_alignTop="@+id/view3"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="100dp"
+                >
+
+                    <ImageView
+                        android:id="@+id/screen_gard"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/screen_grad_whitebg" />
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="55dp"
+                        android:fontFamily="serif"
+                        android:textColor="@color/purple"
+                        android:gravity="center_horizontal"
+                        android:text="Screengrad"
+                        android:textSize="8dp"
+                        android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_alignTop="@+id/view3"
+                android:layout_marginLeft="310dp"
+                android:layout_marginTop="100dp"
+                >
+
+                    <ImageView
+                        android:id="@+id/pdandsd"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/pd_and_sd_whitebg" />
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="55dp"
+                        android:fontFamily="serif"
+                        android:gravity="center_horizontal"
+                        android:text="SD/PD"
+                        android:textSize="8dp"
+                        android:textColor="@color/purple"
+                        android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/add_see_more_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="190dp"
+            android:layout_alignTop="@+id/display_category1"
+            />
+    </RelativeLayout>
+</FrameLayout>

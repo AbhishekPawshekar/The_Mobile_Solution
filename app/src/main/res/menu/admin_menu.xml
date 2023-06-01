@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp1">
+        <item android:title="GENERAL"
+            android:enabled="false"
+            android:checkable="false"/>
+        <item
+            android:id="@+id/home1"
+            android:title="Home"
+            android:icon="@drawable/homeicon"/>
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp2">
+        <item android:title="PRODUCT"
+            android:enabled="false"/>
+        <item
+            android:id="@+id/productdetails"
+            android:title="Product Details"
+            android:icon="@drawable/producticon"/>
+        <item
+            android:id="@+id/productmul"
+            android:title="Product Manupulation"
+            android:icon="@drawable/productmanupulationicon"/>
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp3">
+        <item android:title="USER"
+            android:enabled="false"/>
+        <item
+            android:id="@+id/userdetails"
+            android:title="User/Members Details"
+            android:icon="@drawable/userdetailsicon"/>
+        <item android:title="Orders"
+            android:id="@+id/ordersdetails"
+            android:icon="@drawable/ordericon"/>
+    </group>
+<group android:checkableBehavior="single"
+    android:id="@+id/grp4">
+    <item
+        android:id="@+id/logout1"
+        android:title="Logout"
+        android:icon="@drawable/logouticon"
+        />
+
+</group>
+
+</menu>

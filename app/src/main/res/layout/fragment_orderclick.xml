@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".orderclick"
+  >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/purple"
+        android:layout_marginTop="30dp"></TextView>
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <!-- TODO: Update blank fragment layout -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                >
+
+                <TextView
+                    android:id="@+id/display_productimage"
+                    android:layout_width="35dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:textStyle="bold"
+                    android:fontFamily="serif"
+                    android:textColor="@color/purple"
+                    android:text="Image"
+                    android:textSize="10dp"
+                    android:gravity="center_horizontal"
+                    />
+                <TextView
+                    android:id="@+id/display_productname"
+                    android:layout_width="350dp"
+                    android:layout_height="20dp"
+                    android:textColor="@color/purple"
+                    android:layout_alignParentLeft="true"
+                    android:textStyle="bold"
+                    android:fontFamily="serif"
+                    android:layout_marginLeft="40dp"
+                    android:text="Product Name"
+                    android:layout_alignLeft="@+id/display_productimage"
+                    android:textSize="10dp"
+                    android:gravity="center_horizontal"
+                    />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/recycleruserorder"
+                    android:layout_marginTop="30dp"/>
+            </RelativeLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+</FrameLayout>

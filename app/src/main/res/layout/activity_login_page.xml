@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".login_page"
+    android:layout_centerHorizontal="true">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="410dp"
+        android:layout_height="87dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/purple" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="123dp"
+        android:layout_height="92dp"
+        android:layout_below="@+id/view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/logo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignRight="@+id/view2"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginTop="40dp"
+                android:hint="Email:"
+                android:textSize="14dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/purple"
+                    android:background="#D795F8"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="false"
+                    android:textSize="14dp"
+                    android:textStyle="normal|italic"></com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="50dp"
+                android:ems="10"
+                android:hint="Password:"
+                android:textSize="14dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:textColor="@color/purple"
+                    android:inputType="textPassword"
+                    android:singleLine="false"
+                    android:textSize="14dp"
+                    android:background="#D795F8"
+                    android:textStyle="normal|italic"></com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/loginback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColorLink="#92FFFF00"
+        android:textSize="15dp"
+        android:layout_marginTop="60dp" />
+
+            <TextView
+                android:id="@+id/request_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="15dp"
+                android:onClick="request_to_signup"
+                android:text="Create New Account"
+                android:textColor="@color/purple" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+

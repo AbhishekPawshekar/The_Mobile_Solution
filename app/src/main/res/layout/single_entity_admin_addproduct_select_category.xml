@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="50dp"
+    android:layout_height="80dp"
+    android:layout_marginLeft="10dp"
+
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="10dp"
+    android:id="@+id/single_entity_adminproduct_select_categoryui">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <ImageView
+        android:id="@+id/admin_category_select_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        />
+
+    <TextView
+        android:id="@+id/admin_category_select_text"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:textColor="@color/purple"
+        android:layout_marginTop="55dp"
+        android:layout_alignTop="@+id/admin_category_select_image"
+        android:gravity="center_horizontal"
+        android:textSize="8dp"
+        android:textStyle="bold" />
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

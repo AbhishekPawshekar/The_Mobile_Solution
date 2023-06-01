@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminhomeclick"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+              >
+                <ImageView
+                    android:id="@+id/set_advertisement"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/advertisement1" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="55dp"
+                    android:fontFamily="serif"
+                    android:textColor="@color/purple"
+                    android:gravity="center_horizontal"
+                    android:text="Set Advertisement"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/add_Category"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/categoryimage" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="55dp"
+                    android:fontFamily="serif"
+                    android:textColor="@color/purple"
+                    android:gravity="center_horizontal"
+                    android:text="Category"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/setspecial_offers"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/special_offers" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="140dp"
+                    android:layout_marginTop="55dp"
+                    android:fontFamily="serif"
+                    android:textColor="@color/purple"
+                    android:gravity="center_horizontal"
+                    android:text="Set Special Offers"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/deletespecial_offers"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="220dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/delete_producticon" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="210dp"
+                    android:layout_marginTop="55dp"
+                    android:fontFamily="serif"
+                    android:textColor="@color/purple"
+                    android:gravity="center_horizontal"
+                    android:text="Delete Special Offers"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/reparingorders"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+
+                    android:layout_marginLeft="290dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/reparing_orders_icon" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="280dp"
+                    android:layout_marginTop="55dp"
+                    android:fontFamily="serif"
+                    android:textColor="@color/purple"
+                    android:gravity="center_horizontal"
+                    android:text="View Reparing Orders"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:id="@+id/setnoofuser"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/purple"
+                android:layout_marginTop="100dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:textSize="12dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/setnoofproduct"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/purple"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:textSize="12dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/setnoofmembers"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/purple"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="30dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:textSize="12dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/setnoofreparing"
+                android:layout_width="80dp"
+                android:textColor="@color/purple"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="190dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:textSize="12dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/setnooforderrequest"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/purple"
+                android:layout_marginTop="190dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:textSize="12dp"
+                android:textStyle="bold"></TextView>
+
+
+            <TextView
+                android:id="@+id/noofuser"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="130dp"
+                android:textColor="@color/purple"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="no of User"
+                android:textSize="10dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/noofproduct"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/purple"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="130dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="no of Product"
+                android:textSize="10dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/noofmembers"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/purple"
+                android:layout_marginTop="130dp"
+                android:layout_marginRight="30dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="No Of    Members"
+                android:textSize="10dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/noofreparing"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="220dp"
+                android:textColor="@color/purple"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="no of Reparing"
+                android:textSize="10dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/nooforderrequest"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="220dp"
+                android:fontFamily="serif"
+                android:textColor="@color/purple"
+                android:gravity="center"
+                android:text="no of Order Placed"
+                android:textSize="10dp"
+                android:textStyle="bold"></TextView>
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>
